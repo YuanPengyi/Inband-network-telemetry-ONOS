@@ -32,7 +32,7 @@ mirroring_add 500 4
 h11 iperf -c h22 -u -l 1k -t 10000
 ```
 
-## web前端没有Collector Configuration解决方法：
+## web前端没有INT Collector Configuration解决方法：
 
 修改文件：$ONOS_ROOT/tools/package/config/network-cfg.json
 ```json
