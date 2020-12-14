@@ -1,0 +1,12 @@
+  {
+    "apps": {
+      "org.onosproject.inbandtelemetry": {
+        "report": {
+          "collectorIp": "127.0.0.1",
+          "collectorPort": 54321,
+          "minFlowHopLatencyChangeNs": 300
+        }
+      }
+    }
+  }
+
