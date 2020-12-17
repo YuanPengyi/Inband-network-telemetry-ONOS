@@ -8,6 +8,8 @@ sudo ip link set dev veth_2 up
 ```
 ## 运行控制器
 ```bash
+export ONOS_ROOT=/opt/onos
+source $ONOS_ROOT/tools/dev/bash_profile
 ONOS_APPS=drivers,proxyarp,lldpprovider,hostprovider,fwd,gui,inbandtelemetry,bmv2 bazel run onos-local -- clean
 ```
 
